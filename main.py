@@ -8,8 +8,10 @@ def test(X,hw,hb):
 	prediction = tf.nn.softmax(fc1)
 	return prediction
 def close():
+	#add servo movement here
 	pass
 def open():
+	#add servo movement here
 	pass
 def move(prediction,a):
 	with tf.Session() as sess:
